@@ -1,0 +1,9 @@
+fastapi==0.115.6
+uvicorn==0.32.1
+pydantic==2.10.6
+pydantic-settings==2.6.1
+python-multipart==0.0.1
+boto3==1.35.90
+requests==2.32.2
+pytest==8.3.4
+httpx==0.28.1
