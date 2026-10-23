@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     weather_api_key: str = ""
     aws_access_key_id: str = ""
     aws_secret_access_key: str = ""
-    allow_origins: str = "http://localhost:5173"
+    allow_origins: str = "http://localhost:5173,http://localhost:5174,http://127.0.0.1:5173,http://localhost:3000,http://127.0.0.1:3000"
     storage_path: str = "/tmp/farmsaathi_reports.db"
 
     model_config = SettingsConfigDict(
